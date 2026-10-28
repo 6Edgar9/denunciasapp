@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Denuncias</string>
+
+    <!-- Principal -->
+    <string name="title_main">Denuncias ciudadanas</string>
+    <string name="subtitle_main">Reporta y da seguimiento</string>
+    <string name="label_buscar_dni">Buscar por DNI</string>
+    <string name="hint_dni_buscar">DNI del ciudadano</string>
+    <string name="btn_buscar">Buscar</string>
+    <string name="btn_limpiar_busqueda">Limpiar búsqueda</string>
+    <string name="btn_cargar_mas">Cargar 5 siguientes</string>
+    <string name="btn_cargando">Cargando…</string>
+    <string name="btn_no_hay_mas">No hay más denuncias</string>
+    <string name="btn_nueva_denuncia">Nueva denuncia</string>
+    <string name="info_recientes">Denuncias recientes · %1$d mostradas</string>
+    <string name="info_resultados_dni">%1$d resultado(s) para DNI %2$s</string>
+    <string name="empty_listado">Aún no hay denuncias registradas</string>
+    <string name="empty_busqueda">No se encontraron denuncias para este DNI</string>
+    <string name="btn_reintentar">Reintentar</string>
+
+    <!-- Item / estado -->
+    <string name="fmt_dni">DNI %1$s</string>
+    <string name="fmt_id_corto">#%1$d</string>
+    <string name="fmt_id">Denuncia #%1$d</string>
+    <string name="estado_pendiente">● Pendiente</string>
+    <string name="estado_atendida">✓ Atendida</string>
+    <string name="sin_descripcion">Sin descripción</string>
+
+    <!-- Registro -->
+    <string name="title_registrar">Registrar denuncia</string>
+    <string name="registrar_intro">Completa los datos. La fecha y el estado se asignan automáticamente.</string>
+    <string name="hint_dni">DNI (8 dígitos)</string>
+    <string name="hint_tipo">Tipo de denuncia</string>
+    <string name="hint_direccion">Dirección</string>
+    <string name="hint_descripcion">Descripción (opcional)</string>
+    <string name="btn_registrar">Registrar denuncia</string>
+    <string name="btn_registrando">Registrando…</string>
+    <string name="err_dni">El DNI debe tener exactamente 8 dígitos</string>
+    <string name="err_tipo">Ingresa el tipo de denuncia</string>
+    <string name="err_direccion">Ingresa la dirección</string>
+    <string name="msg_registrada">Denuncia #%1$d registrada correctamente</string>
+
+    <!-- Detalle -->
+    <string name="title_detalle">Detalle de denuncia</string>
+    <string name="label_dni">DNI del ciudadano</string>
+    <string name="label_fecha">Fecha de registro</string>
+    <string name="label_direccion">Dirección</string>
+    <string name="label_descripcion">Descripción</string>
+    <string name="btn_atender">Atender</string>
+    <string name="btn_buscar_por_dni">Buscar por DNI</string>
+    <string name="btn_atendiendo">Atendiendo…</string>
+    <string name="btn_ya_atendida">Atendida</string>
+    <string name="dialog_atender_titulo">¿Atender denuncia?</string>
+    <string name="dialog_atender_msg">La denuncia se marcará como atendida. Esta acción no se puede deshacer.</string>
+    <string name="dialog_confirmar">Atender</string>
+    <string name="dialog_cancelar">Cancelar</string>
+    <string name="msg_atendida">Denuncia marcada como atendida</string>
+    <string name="err_id_invalido">ID de denuncia inválido</string>
+</resources>
